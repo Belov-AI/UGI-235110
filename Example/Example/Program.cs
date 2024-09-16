@@ -16,7 +16,8 @@ namespace Example
             Console.WriteLine("Введите второе слагаемое");
             int y = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Cумма чисел равна " + (x + y));
+            //Console.WriteLine("Cумма чисел равна " + (x + y));
+            Console.WriteLine($"{x} + {y} = {x + y}");
 
             Console.ReadKey();
         }
